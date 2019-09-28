@@ -8,6 +8,8 @@ import json
 
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+from astropy.visualization import astropy_mpl_style
+plt.style.use(astropy_mpl_style)
 
 
 class finder(object):
