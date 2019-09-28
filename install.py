@@ -6,8 +6,12 @@ with open("requirements.txt","r") as f:
     for module in modules:
         try:
             os.system("pip3 install "+module)
-        else:
-            raise Exception("module not found.")
+        except:
+            c = input("pip3 is not installed. Would you like to install it?(Y/n): ")
+            if(c.lower() == "y"):
+                os.system("sudo apt-get install python3-pip")
+            else:
+                raise Exception("Unable to install "+module)
 
 os.system("sudo mv src /bin/")
 
