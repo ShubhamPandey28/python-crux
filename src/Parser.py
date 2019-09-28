@@ -28,7 +28,7 @@ class Parser(object):
             center = (int(x), int(y))
             radius = int(radius)
             self.cp = center
-        self.ru = radius
+        self.rp = radius
         
     def getumbra(self):
 
@@ -42,7 +42,7 @@ class Parser(object):
             center = (int(x), int(y))
             radius = int(radius)
             self.cu = center
-        self.rp = radius    
+        self.ru = radius    
 
 def imshow(img):
     cv2.imshow("image",img)
