@@ -17,4 +17,6 @@ crux getsize <imagefilePath> <distance between object and observing plane> <dist
 
 2) Applying a better approach in setting thresold of the circle classifier./ Other approach for detecting the penumbra and umbra more efficiently.(In progress)
 
+3) As the oreintation of plane is not known the image of shadow is an elipse. So instead of cirlce we shoudl work with elipse.
+
 
