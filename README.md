@@ -3,14 +3,14 @@
 Has two functionalites:
 
 1) takes object name and finds it current position wrt to location given or by default the current location of the user.
-'''bash
+```bash
 crux find <objectname>
-'''
+```
 
 2) takes image file and gets the penumbra and umbra of the shadow image given the image file.
-'''bash
+```bash
 crux getsize <imagefilePath>
-'''
+```
 -- Not complete yet:
 
 -> Getting the size of light source and the celestial object from the given image and distances between obj ,source and plane of observation.
