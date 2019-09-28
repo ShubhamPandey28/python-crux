@@ -32,9 +32,11 @@ if(funcname == "getsize"):
 
 elif(funcname == "find"):
     obj = args[2]
+    if(len(args) == 4):
+        loc = args[3]
     objt = finder()
-    obj.fit(obj)
-    obj.liveplot()
+    objt.fit(obj,refLoc=loc)
+    objt.liveplot()
     
 else:
     raise Exception("Function not available.")
